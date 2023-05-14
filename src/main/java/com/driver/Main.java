@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
 import java.time.LocalTime;
 
 public class Main {
-    // install node js
     public static void main(String[] args) throws ParseException {
         Email email = new Email("accio@gmail.com");
         email.changePassword("Accio@123", "V12@");
