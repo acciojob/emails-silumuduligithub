@@ -4,10 +4,10 @@ import java.util.Date;
 
 public class Mail {
     Date date;
-     String sender;
+    private String sender;
     String message;
-   Mail next;
-//
+    Mail next;
+
     public Mail(Date date,String sender,String message){
         this.date = date;
         this.sender = sender;
